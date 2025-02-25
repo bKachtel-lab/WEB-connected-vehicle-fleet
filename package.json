@@ -1,26 +1,33 @@
 {
-  "name": "object-model-lab",
-  "version": "1.0.0",
-  "description": "Object Model Lab of the 'WEB-IHM' lecture for the iWOCS Master degree",
-  "main": "src/index.js",
+  "name": "web-objectmodel-lab",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest --coverage",
-    "pretest": "eslint src",
-    "ci": "jest --ci --coverage --color=false",
-    "preci": "eslint --no-color src"
+    "test": "vitest  run --config vitest.config.ts",
+    "test:coverage": "vitest watch --config vitest.config.ts --coverage.enabled --coverage.all",
+    "test:ci": "vitest run --config vitest.config.ts --coverage.enabled --coverage.all --no-color",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier . -w",
+    "prebuild": "rm -rf dist/*",
+    "build": "tsc",
+    "watch": "tsc -w"
   },
   "keywords": [],
-  "author": " Yoann Pigné",
+  "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
-    "@babel/core": "^7.16.12",
-    "@babel/eslint-parser": "^7.16.5",
-    "@babel/plugin-syntax-class-properties": "^7.12.13",
-    "@babel/preset-env": "^7.16.11",
-    "babel-jest": "^27.4.6",
-    "eslint": "^8.7.0",
-    "jest": "^27.4.7",
-    "prettier": "2.5.1"
-  },
-  "dependencies": {}
+    "@types/node": "^22.13.5",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "@vitest/coverage-v8": "^3.0.6",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.5.2",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.6"
+  }
 }

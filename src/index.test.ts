@@ -1,10 +1,11 @@
+import { describe, beforeAll, expect, test } from 'vitest';
 import { promises as fs } from 'fs';
 
-import { version } from '.';
+import { version } from './index';
 
 let data;
 beforeAll(async () => {
-  data = await fs.readFile('./resources/sensors_data.json', {
+  data = await fs.readFile('./resources/test_data.json', {
     encoding: 'utf8',
   });
   data = JSON.parse(data);
@@ -16,7 +17,7 @@ describe('Sensor model tests', () => {
       expect(data.length).toBe(3);
     });
     test('version number from the model', () => {
-      expect(version()).toBe('1.0.0');
+      expect(version()).toBe('0.0.1');
     });
   });
   /* TODO: Écrire ici la suite de tests pour le modèle objet.*/

@@ -1,5 +1,7 @@
 {
-  "trailingComma": "es5",
+  "parser": "typescript",
+  "trailingComma": "all",
   "singleQuote": true,
-  "semi": true
+  "semi": true,
+  "plugins": ["prettier-plugin-organize-imports"]
 }

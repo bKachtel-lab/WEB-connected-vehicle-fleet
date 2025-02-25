@@ -1,0 +1,127 @@
+[
+    {
+      "id": 2,
+      "brand": "Volvo",
+      "model": "FH16",
+      "year": 2020,
+      "type": "Truck",
+      "maxLoad": 40000,
+      "sensors": [
+        {
+          "id": 103,
+          "type": "GPS",
+          "history": [
+          { "timestamp": "2025-02-10T12:00:00Z", "value": { "latitude": 45.764, "longitude": 4.857 } },
+          { "timestamp": "2025-02-10T12:01:00Z", "value": { "latitude": 45.864, "longitude": 4.357 } },
+          { "timestamp": "2025-02-10T12:02:00Z", "value": { "latitude": 45.724, "longitude": 4.6357 } },
+          { "timestamp": "2025-02-10T12:03:00Z", "value": { "latitude": 45.94, "longitude": 4.8367 } },
+          { "timestamp": "2025-02-10T12:04:00Z", "value": { "latitude": 46.064, "longitude": 4.6357 } },
+          { "timestamp": "2025-02-10T12:05:00Z", "value": { "latitude": 46.14, "longitude": 4.6357 } },
+          { "timestamp": "2025-02-10T12:06:00Z", "value": { "latitude": 46.164, "longitude": 4.7357 } },
+          { "timestamp": "2025-02-10T12:07:00Z", "value": { "latitude": 46.164, "longitude": 4.2337 } },
+          { "timestamp": "2025-02-10T12:08:00Z", "value": { "latitude": 46.264, "longitude": 4.357 } },
+          { "timestamp": "2025-02-10T12:09:00Z", "value": { "latitude": 46.244, "longitude": 4.356 } }
+          ]
+        },
+        {
+          "id": 104,
+          "type": "Speed",
+            "history": [
+            { "timestamp": "2025-02-10T12:00:00Z", "value": 50 },
+            { "timestamp": "2025-02-10T12:01:00Z", "value": 55 },
+            { "timestamp": "2025-02-10T12:02:00Z", "value": 60 },
+            { "timestamp": "2025-02-10T12:03:00Z", "value": 65 },
+            { "timestamp": "2025-02-10T12:04:00Z", "value": 70 },
+            { "timestamp": "2025-02-10T12:05:00Z", "value": 75 },
+            { "timestamp": "2025-02-10T12:06:00Z", "value": 80 },
+            { "timestamp": "2025-02-10T12:07:00Z", "value": 85 },
+            { "timestamp": "2025-02-10T12:08:00Z", "value": 90 },
+            { "timestamp": "2025-02-10T12:09:00Z", "value": 95 }
+          ] 
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "brand": "Giant",
+      "model": "Escape 3",
+      "year": 2021,
+      "type": "Bike",
+      "sensors": [
+        {
+          "id": 107,
+          "type": "Speed",
+          "history": [
+            { "timestamp": "2025-02-10T12:00:00Z", "value": 10 },
+            { "timestamp": "2025-02-10T12:01:00Z", "value": 15 },
+            { "timestamp": "2025-02-10T12:02:00Z", "value": 20 },
+            { "timestamp": "2025-02-10T12:03:00Z", "value": 25 },
+            { "timestamp": "2025-02-10T12:04:00Z", "value": 22 },
+            { "timestamp": "2025-02-10T12:05:00Z", "value": 19 },
+            { "timestamp": "2025-02-10T12:06:00Z", "value": 4 },
+            { "timestamp": "2025-02-10T12:07:00Z", "value": 6 },
+            { "timestamp": "2025-02-10T12:08:00Z", "value": 7 },
+            { "timestamp": "2025-02-10T12:09:00Z", "value": 12 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "brand": "Renault",
+      "model": "Clio",
+      "year": 2022,
+      "type": "Car",
+      "fuelType": "Gasoline",
+      "sensors": [
+        {
+          "id": 108,
+          "type": "GPS",
+          "history":[
+            { "timestamp": "2025-02-10T12:00:00Z", "value": { "latitude": 45.764, "longitude": 4.857 } },
+            { "timestamp": "2025-02-10T12:01:00Z", "value": { "latitude": 45.864, "longitude": 4.357 } },
+            { "timestamp": "2025-02-10T12:02:00Z", "value": { "latitude": 45.724, "longitude": 4.6357 } },
+            { "timestamp": "2025-02-10T12:03:00Z", "value": { "latitude": 45.94, "longitude": 4.8367 } },
+            { "timestamp": "2025-02-10T12:04:00Z", "value": { "latitude": 46.064, "longitude": 4.6357 } },
+            { "timestamp": "2025-02-10T12:05:00Z", "value": { "latitude": 46.14, "longitude": 4.6357 } },
+            { "timestamp": "2025-02-10T12:06:00Z", "value": { "latitude": 46.164, "longitude": 4.7357 } },
+            { "timestamp": "2025-02-10T12:07:00Z", "value": { "latitude": 46.164, "longitude": 4.2337 } },
+            { "timestamp": "2025-02-10T12:08:00Z", "value": { "latitude": 46.264, "longitude": 4.357 } },
+            { "timestamp": "2025-02-10T12:09:00Z", "value": { "latitude": 46.244, "longitude": 4.356 } }
+          ]
+        },
+        {
+          "id": 109,
+          "type": "Speed",
+          "history":[
+            { "timestamp": "2025-02-10T12:00:00Z", "value": 50 },
+            { "timestamp": "2025-02-10T12:01:00Z", "value": 55 },
+            { "timestamp": "2025-02-10T12:02:00Z", "value": 60 },
+            { "timestamp": "2025-02-10T12:03:00Z", "value": 65 },
+            { "timestamp": "2025-02-10T12:04:00Z", "value": 70 },
+            { "timestamp": "2025-02-10T12:05:00Z", "value": 75 },
+            { "timestamp": "2025-02-10T12:06:00Z", "value": 80 },
+            { "timestamp": "2025-02-10T12:07:00Z", "value": 85 },
+            { "timestamp": "2025-02-10T12:08:00Z", "value": 90 },
+            { "timestamp": "2025-02-10T12:09:00Z", "value": 95 }
+          ]
+        },
+        {
+          "id": 110,
+          "type": "Fuel",
+          "history":[
+            { "timestamp": "2025-02-10T12:00:00Z", "value": 50 },
+            { "timestamp": "2025-02-10T12:01:00Z", "value": 45 },
+            { "timestamp": "2025-02-10T12:02:00Z", "value": 40 },
+            { "timestamp": "2025-02-10T12:03:00Z", "value": 35 },
+            { "timestamp": "2025-02-10T12:04:00Z", "value": 30 },
+            { "timestamp": "2025-02-10T12:05:00Z", "value": 25 },
+            { "timestamp": "2025-02-10T12:06:00Z", "value": 20 },
+            { "timestamp": "2025-02-10T12:07:00Z", "value": 15 },
+            { "timestamp": "2025-02-10T12:08:00Z", "value": 10 },
+            { "timestamp": "2025-02-10T12:09:00Z", "value": 5 }
+          ]
+        }
+      ]
+    }
+  ]
