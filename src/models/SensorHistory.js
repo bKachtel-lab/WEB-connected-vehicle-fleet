@@ -2,7 +2,7 @@
  * Représente une valeur enregistrée par un capteur
  * à un instant donné.
  */
-class SensorHistory {
+export class SensorHistory {
 
   /**
    * @param {string} timestamp - date de la mesure
